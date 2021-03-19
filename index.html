@@ -1,4 +1,6 @@
- <style>
+Hi Keshav,
+Please find the code,
+<style>
  #_form_1_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
  #_form_1_ * { outline:0; }
  ._form_hide { display:none; visibility:hidden; }
@@ -24,7 +26,7 @@
  #_form_1_ ._form_element * { font-size:14px; }
  #_form_1_ ._form_element._clear { clear:both; width:100%; float:none; }
  #_form_1_ ._form_element._clear:after { clear:left; }
- #_form_1_ ._form_element input[type="text"],#_form_1_ ._form_element input[type="date"],#_form_1_ ._form_element select,#_form_1_ ._form_element textarea:not(.g-recaptcha-response) { display:block; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+ #_form_1_ ._form_element input[type="text"],#_form_1_ ._form_element input[type="date"],#_form_1_ ._form_element select,#_form_1_ ._form_element textarea:not(.g-recaptcha-response) { display:block; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-family:inherit; }
  #_form_1_ ._field-wrapper { position:relative; }
  #_form_1_ ._inline-style { float:left; }
  #_form_1_ ._inline-style input[type="text"] { width:150px; }
@@ -69,7 +71,7 @@
  #_form_1_ button[type="submit"] { padding:20px; font-size:1.5em; }
  #_form_1_ ._inline-style { margin:20px 0 0 !important; }
  }
- #_form_1_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#fff !important; border:0px solid #fff !important; -moz-border-radius:7px !important; -webkit-border-radius:7px !important; border-radius:7px !important; color:#000 !important; }
+ #_form_1_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#d5f2d5 !important; border:0px solid #fff !important; -moz-border-radius:7px !important; -webkit-border-radius:7px !important; border-radius:7px !important; color:#030303 !important; }
  #_form_1_._inline-form,#_form_1_._inline-form ._form-content,#_form_1_._inline-form input,#_form_1_._inline-form ._submit { font-family:"IBM Plex Sans", Helvetica, sans-serif, 'IBM Plex Sans', arial, sans-serif; }
  #_form_1_ ._form-title { font-size:22px; line-height:22px; font-weight:600; margin-bottom:0; }
  #_form_1_:before,#_form_1_:after { content:" "; display:table; }
@@ -94,34 +96,37 @@
       <input type="hidden" name="act" value="sub" />
       <input type="hidden" name="v" value="2" />
       <div class="_form-content">
-        <div class="_form_element _x51856115 _inline-style " >
-          <label class="_form-label">
-            Full Name
-          </label>
-          <div class="_field-wrapper">
-            <input type="text" name="fullname" placeholder="Type your name" />
+        <div class="_form_element _x29210048 _inline-style _clear" style="text-align: center;">
+          <img class="_form-image" src="//nutritionbylovneet.img-us3.com/admin/5f60b1a62cc7f4182aeeca98_logo.png?r=0.9417173910762973" style="height:65px;width:414px" />
+          </div>
+          <div class="_form_element _x51856115 _inline-style " >
+            <label class="_form-label">
+              Full Name
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" name="fullname" placeholder="Type your name" />
+            </div>
+          </div>
+          <div class="_form_element _x33689991 _inline-style " >
+            <label class="_form-label">
+              Email*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" name="email" placeholder="Type your email" required/>
+            </div>
+          </div>
+          <div class="_button-wrapper _inline-style">
+            <button id="_form_1_submit" class="_submit" type="submit">
+              Join The Program
+            </button>
+          </div>
+          <div class="_clear-element">
           </div>
         </div>
-        <div class="_form_element _x33689991 _inline-style " >
-          <label class="_form-label">
-            Email*
-          </label>
-          <div class="_field-wrapper">
-            <input type="text" name="email" placeholder="Type your email" required/>
-          </div>
+        <div class="_form-thank-you" style="display:none;">
         </div>
-        <div class="_button-wrapper _inline-style">
-          <button id="_form_1_submit" class="_submit" type="submit">
-            Submit
-          </button>
-        </div>
-        <div class="_clear-element">
-        </div>
-      </div>
-      <div class="_form-thank-you" style="display:none;">
-      </div>
-    </form>
-  </div><script type="text/javascript">
+      </form>
+    </div><script type="text/javascript">
 window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url, email) {
   var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
